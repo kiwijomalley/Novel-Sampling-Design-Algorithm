@@ -7,8 +7,6 @@
 
 #Set-up paths to input data and output data and files
 library(foreign)
-rsource='/Volumes/OMalleyJ/Dartmouth/Biostatistics/U19_DataCore/Code'
-setwd(rsource)
 datdir='../Data/' #I store data and output in subdirectories.
 outdir='../Output/' 
 
