@@ -1,4 +1,10 @@
 # Novel-Sampling-Design-Algorithm
-The code in this R script contains the Monte Carlo algorithm used to perform simulations and conduct analyses in the paper A Novel Cluster Sampling Design that Couples Three Surveys to support Multiple Statistical Modeling Objectives.
+The code in this R script contains the Monte Carlo algorithm used to perform simulations and conduct analyses in the paper A Novel Cluster Sampling Design that Couples Multiple Surveys to Support Multiple Inferential Objectives.
 
-The script is written in the R statistical programming language. It takes as input data sets that contain summary information about health systems and owner subsidiaries and their underlying hospitals and physician practices. I am currently exploring whether these data sets can be included in the repository. Just two files need to be added. Their filenames are: jachmg-2017-02-27.csv, jcps-joss-2017-02-26.csv
+The script is written in the R statistical programming language. It takes as input data sets that contain summary information about health systems and owner subsidiaries and their underlying hospitals and physician practices. 
+
+Because of the Data Use Agreement for this project, the actual data is unable to be shared. However, I generated a hypothetical data set that has the same general structure as the actual data but has anonymized ID variables and different numbers of hospitals, practices and systems to make it unidentifiable and of no commerical value. 
+
+The R script and input data file are named: SampDsgnCalculations4GitHub.R and jcps_joss-GitHub.csv, respectively.
+
+The script is written so that the input data should be included in a subdirectory named Data and the outputs are sent to a subdirectory named Output.
